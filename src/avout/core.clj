@@ -141,5 +141,5 @@
        name
        (avout.atoms.zk.ZKStateContainer.
          client-handle
-         (zk/create-all (.getClient client-handle) (str name "/data"))))))
+          (str name "/data")))))
 
